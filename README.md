@@ -20,4 +20,4 @@ No need to run ganache-cli manually.
 ## Clean up
 
 To kill the last ganache-cli instance spawned by the scripts, run `bash kill-ganache.sh`.
-To print out all running ganache-cli instances, run `bash print-ganache-instances`.
+To print out all running ganache-cli instances, run `bash print-ganache-instances.sh`.
