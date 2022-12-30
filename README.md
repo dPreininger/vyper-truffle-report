@@ -14,7 +14,7 @@ The scripts are designed to run on Ubuntu 22.04, using bash terminal. It is best
 1. Clone the repo
 2. Run `bash build-migrate-run.sh`
 
-Each script will spawn a new instance of ganache-cli in the background, killing the previoud one if it exists.
+Each script will spawn a new instance of ganache-cli in the background, killing the previous one if it exists.
 No need to run ganache-cli manually.
 The command that actually fails is the `truffle console` command.
 
