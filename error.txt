@@ -1,0 +1,9 @@
+Unexpected error setting up the environment or provisioning contracts while instantiating the console.
+Error: Error parsing or reading VyperStorage.json: Unexpected token u in JSON at position 0
+    at {{ MY_HOME_DIR }}/.nvm/versions/node/v18.12.1/lib/node_modules/truffle/build/webpack:/packages/core/lib/console.js:283:1
+    at Array.forEach (<anonymous>)
+    at Console.provision ({{ MY_HOME_DIR }}/.nvm/versions/node/v18.12.1/lib/node_modules/truffle/build/webpack:/packages/core/lib/console.js:256:1)
+    at Console.start ({{ MY_HOME_DIR }}/.nvm/versions/node/v18.12.1/lib/node_modules/truffle/build/webpack:/packages/core/lib/console.js:130:1)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.module.exports [as run] ({{ MY_HOME_DIR }}/.nvm/versions/node/v18.12.1/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/console/run.js:32:1)
+    at runCommand ({{ MY_HOME_DIR }}/.nvm/versions/node/v18.12.1/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:201:1)
